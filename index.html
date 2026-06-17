@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Digital Piano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="piano-container">
+        <h1>DIGITAL PIANO</h1>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="instrument-select">Instrument:</label>
+                <select id="instrument-select">
+                    <option value="acoustic_grand_piano-mp3">Acoustic Piano</option>
+                    <option value="acoustic_guitar_nylon-mp3">Nylon Guitar</option>
+                    <option value="pad_1_new_age-mp3">Synth Pad</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label class="toggle-label">
+                    <input type="checkbox" id="labels-toggle" checked>
+                    <span class="slider"></span>
+                    Show Key Hints
+                </label>
+            </div>
+        </div>
+        
+        <div class="piano-keyboard">
+            <div class="key white" data-note="C4" data-letter="A"></div>
+            <div class="key black" data-note="Db4" data-letter="W"></div>
+            
+            <div class="key white" data-note="D4" data-letter="S"></div>
+            <div class="key black" data-note="Eb4" data-letter="E"></div>
+            
+            <div class="key white" data-note="E4" data-letter="D"></div>
+            
+            <div class="key white" data-note="F4" data-letter="F"></div>
+            <div class="key black" data-note="Gb4" data-letter="T"></div>
+            
+            <div class="key white" data-note="G4" data-letter="G"></div>
+            <div class="key black" data-note="Ab4" data-letter="Y"></div>
+            
+            <div class="key white" data-note="A4" data-letter="H"></div>
+            <div class="key black" data-note="Bb4" data-letter="U"></div>
+            
+            <div class="key white" data-note="B4" data-letter="J"></div>
+            
+            <div class="key white" data-note="C5" data-letter="K"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
