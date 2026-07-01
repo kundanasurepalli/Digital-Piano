@@ -6,9 +6,9 @@ An interactive **Digital Piano** built using **HTML, CSS, and JavaScript**. This
 
 ## 📖 Project Overview
 
-The Digital Piano is designed to simulate a real piano keyboard inside a web browser. Each piano key plays its corresponding musical note, and users can switch between different instrument sounds such as an acoustic piano, nylon guitar, and synth pad.
+The Digital Piano is designed to simulate a real piano keyboard inside a web browser. Each piano key plays its corresponding musical note, and users can switch between different instrument sounds such as an Acoustic Piano, Nylon Guitar, and Synth Pad.
 
-The project demonstrates core front-end development concepts including DOM manipulation, event handling, audio playback, responsive UI design, and interactive user interfaces.
+This project demonstrates core front-end development concepts including DOM manipulation, event handling, audio playback, responsive UI design, and interactive user interfaces.
 
 ---
 
@@ -17,12 +17,12 @@ The project demonstrates core front-end development concepts including DOM manip
 * 🎹 Interactive virtual piano keyboard
 * ⌨️ Play notes using your computer keyboard
 * 🖱️ Play notes by clicking the piano keys
-* 🎼 Multiple instrument sounds
+* 🎼 Multiple instrument sounds:
 
   * Acoustic Piano
   * Nylon Guitar
   * Synth Pad
-* 👀 Toggle keyboard key hints (Show/Hide)
+* 👀 Show or hide keyboard key hints
 * 🎨 Modern glassmorphism-inspired user interface
 * ⚡ Real-time key press animations
 * 📱 Responsive and clean layout
@@ -34,7 +34,7 @@ The project demonstrates core front-end development concepts including DOM manip
 * HTML5
 * CSS3
 * JavaScript (ES6)
-* Web Audio (HTML Audio API)
+* HTML Audio API
 * MIDI SoundFont audio files
 
 ---
@@ -77,30 +77,30 @@ You can also play the notes by clicking the piano keys with your mouse.
 ## ⚙️ How It Works
 
 1. Open the application in your web browser.
-2. Select your preferred instrument from the dropdown menu.
-3. Press the assigned keyboard keys or click the piano keys.
-4. Each key plays its corresponding musical note.
-5. Enable or disable keyboard hints using the toggle switch.
+2. Choose your preferred instrument from the dropdown menu.
+3. Play notes using the keyboard or by clicking the piano keys.
+4. Toggle keyboard hints on or off whenever needed.
+5. Enjoy playing music directly in your browser.
 
 ---
 
 ## 🚀 Getting Started
 
-### Clone the repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/digital-piano.git
 ```
 
-### Open the project
+### Open the Project
 
 ```bash
 cd digital-piano
 ```
 
-### Run the project
+### Run the Application
 
-Simply open **index.html** in your preferred web browser.
+Open the `index.html` file in any modern web browser.
 
 No installation or additional dependencies are required.
 
@@ -113,32 +113,17 @@ No installation or additional dependencies are required.
 * Glassmorphism control panel
 * Realistic white and black piano keys
 * Smooth key press animations
-* Responsive layout for different screen sizes
+* Responsive layout
 
 ---
 
-## 🎵 Instruments Available
+## 🎵 Available Instruments
 
 * Acoustic Piano
 * Nylon Guitar
 * Synth Pad
 
-The project loads high-quality MIDI SoundFont audio files to generate instrument sounds.
-
----
-
-## 📸 Screenshot
-
-Add a screenshot of your project here after uploading one.
-
-```text
-images/
-    screenshot.png
-```
-
-```md
-![Digital Piano Screenshot](images/screenshot.png)
-```
+The application uses high-quality MIDI SoundFont audio files to produce realistic instrument sounds.
 
 ---
 
@@ -165,7 +150,7 @@ images/
 * Sustain pedal support
 * Additional piano octaves
 * Mobile touch optimization
-* Dark/Light theme switch
+* Dark/Light theme
 * Chord mode
 * Song playback mode
 * Custom key mapping
@@ -200,4 +185,4 @@ This project is licensed under the MIT License.
 
 ## ⭐ Support
 
-If you found this project helpful, consider giving it a ⭐ on GitHub. It helps others discover the project and encourages future improvements.
+If you found this project helpful, please consider giving it a ⭐ on GitHub. Your support helps others discover the project and motivates future improvements.
